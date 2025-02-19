@@ -1,10 +1,16 @@
 from rest_framework import serializers
 from .models import comment, Student
 
+def multiple_of_ten(value):
+    if value%10 != 0:
+        raise serializers.ValidationError("roll no is not multiple of ten")
+    return value
+
+
 
 class StudentSerializer(serializers.Serializer):
     title = serializers.CharField(error_messages = {"required":"title is required"}, required= True)
-    roll_no = serializers.IntegerField(error_messages = {"required":"rollno is required"})
+    roll_no = serializers.IntegerField(error_messages = {"required":"rollno is required"}, validators = [multiple_of_ten])  #include validators for validation check
     name = serializers.CharField(error_messages = {"required":"name is required"})
     department = serializers.CharField(error_messages = {"required":"department is required"})
     start_date = serializers.DateTimeField()
