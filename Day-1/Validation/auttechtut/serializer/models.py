@@ -14,6 +14,8 @@ class Student(models.Model):
     name = models.CharField(max_length=100, null=False)
     department = models.CharField(max_length=100, null= True)
     address = models.CharField(max_length=100)
+    start_date = models.DateField(auto_now_add=True)
+    end_date = models.DateField(blank=True, null=True)
     
     
     
