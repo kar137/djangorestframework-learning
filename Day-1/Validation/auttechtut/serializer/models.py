@@ -9,6 +9,7 @@ class comment(models.Model):
     date = models.DateField()
 
 class Student(models.Model):
+    title = models.CharField(max_length=100, default="student")
     roll_no = models.IntegerField(unique=True, null=False)
     name = models.CharField(max_length=100, null=False)
     department = models.CharField(max_length=100, null= True)
