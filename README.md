@@ -13,33 +13,35 @@ Before starting, ensure you have:
 ## Learning Schedule
 
 ### **Day 1: Introduction & Setup**
-🔹 Read: [Overview & Installation](https://www.django-rest-framework.org/#installation)
-🔹 Install DRF and set up a Django project
-🔹 Learn about the request/response cycle
+- Read: [Overview & Installation](https://www.django-rest-framework.org/#installation)
+- Install DRF and set up a Django project
+- Learn about the request/response cycle
 
 **Practice:**
-✅ Create a Django project
-✅ Add DRF to `INSTALLED_APPS` and configure settings
+- ✅ Create a Django project
+- ✅ Add DRF to `INSTALLED_APPS` and configure settings
 
 ---
 
-### **Day 2: Requests, Responses & API Views**
-- Read: [Requests & Responses](https://www.django-rest-framework.org/tutorial/2-requests-and-responses/)
-- Learn about `APIView`, `Request`, and `Response`
 
-**Practice:**
-- ✅ Create a simple API view
-- ✅ Use different HTTP methods (GET, POST)
 
----
-
-### **Day 3: Serializers**
+### **Day 2: Serializers**
 - Read: [Serializers](https://www.django-rest-framework.org/tutorial/1-serialization/)
 - Understand `ModelSerializer` vs `Serializer`
 
 **Practice:**
 - ✅ Create a `Serializer` for a model
 - ✅ Convert Python objects to JSON and vice versa
+
+---
+
+### **Day 3: Requests, Responses & API Views**
+- Read: [Requests & Responses](https://www.django-rest-framework.org/tutorial/2-requests-and-responses/)
+- Learn about `APIView`, `Request`, and `Response`
+
+**Practice:**
+- ✅ Create a simple API view
+- ✅ Use different HTTP methods (GET, POST)
 
 ---
 
