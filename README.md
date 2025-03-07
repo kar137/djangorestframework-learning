@@ -1,11 +1,11 @@
 # Django REST Framework (DRF) Learning Plan
 
 ## Overview
-This is a **10-day structured plan** to learn **Django REST Framework (DRF)** by following the official documentation. The goal is to dedicate **2 hours daily** to learning DRF concepts and building APIs effectively.
+This is a **10-day structured plan** to learn **Django REST Framework (DRF)** by following the official documentation. The goal is to learn DRF concepts and build APIs effectively.
 
 ## Prerequisites
 Before starting, ensure you have:
-- Basic knowledge of Python & Django
+- Good knowledge of Python & Django
 - Django installed (`pip install django`)
 - DRF installed (`pip install djangorestframework`)
 - Postman or an API testing tool
